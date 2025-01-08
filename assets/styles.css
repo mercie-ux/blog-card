@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Red+Hat+Text:ital,wght@0,300..700;1,300..700&display=swap');
+body{
+    font-family: "Figtree", serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: hsl(47, 88%, 63%);
+}
+/*Card style*/
+.card {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+    padding: 1rem;
+    width: 280px;
+    height: 350px;
+    box-shadow: 8px 8px 4px hsl(0, 0%, 7%);
+    
+}
+.banner img {
+    width: 100%;
+    border-radius: 5px;
+}
+.card button {
+    background-color: hsl(47, 88%, 63%);
+    color: hsl(0, 0%, 7%);
+    border: none;
+    border-radius: 5px;
+    padding: 0.3rem 0.3rem;
+    font-size: 0.8rem;
+    font-weight: 800;
+    cursor: pointer;
+    margin: 1rem 0;
+}
+.card button:hover {
+    background-color: hsl(0, 0%, 7%);
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
+.content h3 {
+    font-size: 1.3rem;
+    font-weight:  700;
+    margin: 0.2rem 0;
+    color:  hsl(0, 0%, 7%);
+    padding: 0.2rem;
+}
+.content h3:hover{
+    color: hsl(47, 88%, 63%);
+    cursor: pointer;
+}
+time {
+    font-size: 0.8rem;
+}
+.content h2 {
+    font-weight: bold;
+}
+.content p {
+    font-size: 0.8rem;
+    color: hsl(0, 0%, 7%);
+    margin: 0.1rem 0 0.9rem;
+}
+.author {
+    display: flex;
+    align-items: center;
+    gap: 0.2rem;
+    
+}
+.author img {
+    width: 35px;
+    height: 35px;
+}
+.author h5 {
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.attribution {
+    gap: 0.5rem;
+    font-size: 0.8rem;
+    color: hsl(0, 0%, 7%);
+    margin-top: 0.9rem;
+}
+.attribution a {
+    color: hsl(0, 0%, 42%);
+    text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+    .card {
+        width: 250px;
+        padding: 1rem;
+    }
+    .banner img {
+        width: 100%;
+    }
+    .card button {
+        font-size: 0.9rem;
+        padding: 0.4rem 0.8rem;
+    }
+    .content h3 {
+        font-size: 1.1rem;
+    }
+    .attribution {
+        font-size: 0.7rem;
+        padding: 0.5rem;
+    }
+    
+}
