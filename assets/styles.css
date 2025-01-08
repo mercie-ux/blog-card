@@ -15,7 +15,7 @@ body{
     background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
     padding: 1rem;
-    width: 250px;
+    width: 280px;
     height: 350px;
     box-shadow: 8px 8px 4px hsl(0, 0%, 7%);
     
@@ -51,11 +51,14 @@ body{
     color: hsl(47, 88%, 63%);
     cursor: pointer;
 }
+time {
+    font-size: 0.8rem;
+}
 .content h2 {
     font-weight: bold;
 }
 .content p {
-    font-size: 0.9rem;
+    font-size: 0.8rem;
     color: hsl(0, 0%, 7%);
     margin: 0.1rem 0 0.9rem;
 }
@@ -75,7 +78,6 @@ body{
 }
 
 .attribution {
-    align-items: center;
     gap: 0.5rem;
     font-size: 0.8rem;
     color: hsl(0, 0%, 7%);
