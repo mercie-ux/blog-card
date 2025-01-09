@@ -35,9 +35,7 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 
 ### Links
-
-- Solution URL: [geeks for geeks]()
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [vercel-app](https://blog-card-m49p.vercel.app/)
 
 ## My process
 
@@ -82,10 +80,9 @@ add animation and button functionality.
 
 ## Author
 
-- Website - [MercyMbao](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Website - [MercyMbao](https://blog-card-m49p.vercel.app/)
+- Frontend Mentor - [mercie-ux](https://www.frontendmentor.io/profile/mercie-ux)
 
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
 
 ## Acknowledgments
 
